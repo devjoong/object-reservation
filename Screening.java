@@ -19,4 +19,8 @@ public class Screening {
     public int getSequence() {
         return sequence;
     }
+
+    public Money getMovieFee() {
+        return movie.getFee();
+    }
 }
